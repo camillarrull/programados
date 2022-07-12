@@ -1,0 +1,52 @@
+@import url(https://fonts.googleapis.com/css?family=Signika:700,300,600);
+.next, .nextDisable {
+    background-color: rgb(187 26 120 / 70%);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Signika';
+    font-weight: 700;
+    border-radius: 4px;
+    transition-duration: 0.4s;
+}
+.next:hover {
+    background-color: rgb(187 26 120 / 30%);
+    color: white;
+}
+.nextDisable{
+    background-color: #d3d3d3;
+    opacity: 0.85;
+    cursor: not-allowed !important;
+    font-weight: 300;
+}
+#questionDiv{
+    display: flex;
+    flex-direction: column
+}
+#answersDiv{
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.respuestas, .respuestaSelected{
+    background-color: rgba(102, 125, 208, 0.7);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Signika';
+    font-weight: 700;
+    border-radius: 4px;
+    transition-duration: 0.4s;
+    margin: 15px;
+}
+.respuestaSelected{
+    background-color: yellow
+}

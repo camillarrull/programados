@@ -1,0 +1,7 @@
+#contenedorPreguntas{
+    width: 900px;
+    background-color: white;
+    padding: 100px;
+    margin: 75px;
+    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+}
