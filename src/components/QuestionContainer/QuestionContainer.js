@@ -10,18 +10,28 @@ const QuestionContainer = ({
     correctAnswer,
     increaseIndex,
     resultadoRta,
-    setResultadoRta }) => {
+    setResultadoRta,
+    historialRta,
+    setHistorialRta }) => {
     const [respuestas, setRespuestas] = React.useState([])
     const [respuestaClickeada, setRespuestaClickeada] = React.useState(null)
     const [timeLeft, { start }] = useCountDown(30000, 1000);
-    const [loaded, setLoaded] = React.useState(false)
+    const [loaded, setLoaded] = React.useState(false);
     const handleAnswer = () => {
+        const infoRta = {
+            question: question,
+            answers: answers,
+            correctAnswer: correctAnswer,
+            clickedAnswer: respuestaClickeada
+        }
+        setHistorialRta([...historialRta, infoRta])
         if (respuestaClickeada === null) {
             return
         }
         if (respuestaClickeada === correctAnswer) {
-            setResultadoRta(resultadoRta+1)
+            setResultadoRta(resultadoRta + 1)
         }
+
         console.log('resultadoRta', resultadoRta)
         increaseIndex()
     }
@@ -29,6 +39,7 @@ const QuestionContainer = ({
         setRespuestaClickeada(arg)
         console.log(respuestaClickeada)
     }
+
     const parseAnswers = () => {
         const oldAnswers = answers //formato viejo : el objeto, q no queremos usar
         const newAnswers = [] // formato nuevo: vamos a guardar las rtas en forma de array
@@ -65,7 +76,7 @@ const QuestionContainer = ({
 
     return (
         <div>
-             <p>{timeLeft/1000 }</p>
+             <p id='time'>{timeLeft/1000 }</p>
             <div id="questionDiv">
                 <h3 id='question'>{question}</h3>
                 <div id="answersDiv">

@@ -1,0 +1,31 @@
+#question{
+    font-family: "Lato", sans-serif;
+    color: #004853;
+    font-size: 40px;
+}
+#questionDivFinal{
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    margin: 10px;
+    border: 3px solid #004853;
+    flex-direction: column;
+}
+#questionFinal{
+    font-size: 30px;
+    color: rgba(102, 125, 208, 0.7);
+    font-family: 'Signika';
+    text-align: center;
+}
+#correctAnswerFinal{
+    color: #8bb68b;
+    font-size: 20px;
+    font-family: 'Signika';
+    text-align: center;
+}
+#clickedAnswerFinal{
+    color:  #f74545;
+    font-size: 20px;
+    font-family: 'Signika';
+    text-align: center;
+}

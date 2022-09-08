@@ -1,7 +1,7 @@
 [
     {
         "id": 0,
-        "category": "Art and Literature",
+        "category": "javascript",
         "question": "¿En qué isla vivía Otelo?",
         "answers": {
             "a": "Capri",
@@ -13,7 +13,7 @@
     },
      {
         "id": 1,
-        "category": "Art and Literature",
+        "category": "javascript",
         "question": "¿Quién pintó 'Mujer mirando por la ventana'?",
         "answers": {
             "a": "Picasso",
@@ -25,7 +25,7 @@
     },
      {
        "id": 2,
-        "category": "Art and Literature",
+        "category": "javascript",
         "question": "¿En qué ciudad nació el pintor y escultor Joan Miro?",
         "answers": {
             "a": "Barcelona",
@@ -37,7 +37,7 @@
     },
      {
         "id": 3,
-        "category": "Art and Literature",
+        "category": "javascript",
         "question": "¿En qué año se suicidó Van Gogh?",
         "answers": {
             "a": "1891",
@@ -49,7 +49,7 @@
     },
     {
         "id": 4,
-        "category": "Art and Literature",
+        "category": "javascript",
         "question": "¿Quién escribió La Divina Comedia?",
         "answers": {
             "a": "Brodsky",
@@ -61,7 +61,7 @@
     },
          {
         "id": 5,
-        "category": "Art and Literature",
+        "category": "javascript",
         "question": "¿Cuántas cuerdas suele tener un bajo eléctrico?",
         "answers": {
             "a": "4",
@@ -73,7 +73,7 @@
     },
     {
         "id": 6,
-        "category": "Art and Literature",
+        "category": "javascript",
         "question": "¿Qué tendencia musical es la que más incursiona en Jamaica?",
         "answers": {
             "a": "Reggae",
@@ -85,7 +85,7 @@
     },
          {
         "id": 7,
-        "category": "Art and Literature",
+        "category": "javascript",
         "question": "¿Cuál de las siguientes palabras es esdrújula?",
         "answers": {
             "a": "Camión",
@@ -97,7 +97,7 @@
     },
          {
         "id": 8,
-        "category": "Art and Literature",
+        "category": "javascript",
         "question": "¿Cuál de estos pintores hace pinturas con forma geométricas?",
         "answers": {
             "a": "Picasso",
@@ -109,7 +109,7 @@
     },
     {
         "id": 9,
-        "category": "Art and Literature",
+        "category": "javascript",
         "question": "¿A qué familia de instrumentos pertenece la guitarra, el violín y el bajo?",
         "answers": {
             "a": "Percusión",
@@ -121,7 +121,7 @@
     },
     {
         "id": 10,
-        "category": "Art and Literature",
+        "category": "javascript",
         "question": "¿Qué nota musical hay entre re y fa?",
         "answers": {
             "a": "Mi",
@@ -133,7 +133,7 @@
     },
     {
         "id": 11,
-        "category": "Art and Literature",
+        "category": "javascript",
         "question": "¿Qué instrumento tocaba Zeta Bosio en Soda Stereo?",
         "answers": {
             "a": "Guitarra",
@@ -145,7 +145,7 @@
     },
     {
         "id": 12,
-        "category": "Art and Literature",
+        "category": "javascript",
         "question": "¿Qué parte del cuerpo se cortó Vicent Van Gogh? ",
         "answers": {
             "a": "Un dedo",
@@ -157,7 +157,7 @@
     },
     {
         "id": 13,
-        "category": "Art and Literature",
+        "category": "javascript",
         "question": "¿Quién es Laura Gallego García?",
         "answers": {
             "a": "Una escritora",
@@ -169,7 +169,7 @@
     },
     {
         "id": 14,
-        "category": "Art and Literature",
+        "category": "javascript",
         "question": "¿Cuál de las siguientes obras no pertenece a Edgar Allan Poe?",
         "answers": {
             "a": "El monte de las ánimas",
@@ -181,8 +181,8 @@
     },
     {
         "id": 15,
-        "category": "Science and Technology",
-        "question": "¿A qué edad alcanzan la madurez las crías de elefante? ",
+        "category": "css",
+        "question": "¿CSS? ",
         "answers": {
             "a": "12-15 años",
             "b": "13-16 años",
@@ -193,8 +193,8 @@
     },
     {
         "id": 16,
-        "category": "Science and Technology",
-        "question": "¿Qué parte del cuerpo tiene 27 huesos y 35 músculos?",
+        "category": "css",
+        "question": "¿CSS?",
         "answers": {
             "a": "Mano",
             "b": "Pie",
@@ -205,8 +205,8 @@
     },
     {
         "id": 17,
-        "category": "Science and Technology",
-        "question": "¿Qué animal puede correr sobre el agua?",
+        "category": "css",
+        "question": "¿CSS?",
         "answers": {
             "a": "Cisne",
             "b": "Pato",
@@ -217,8 +217,8 @@
     },
     {
         "id": 18,
-        "category": "Science and Technology",
-        "question": "¿Cuál es la fórmula química del ácido clorhídrico?",
+        "category": "css",
+        "question": "¿CSS?",
         "answers": {
             "a": "ClH",
             "b": "HCl",
@@ -228,153 +228,9 @@
 
     },
     {
-        "id": 19,
-        "category": "Science and Technology",
-        "question": "¿Qué estudia la topografía?",
-        "answers": {
-            "a": "Los animales que viven bajo tierra",
-            "b": "Las aguas subterráneas",
-            "c": "La representación gráfica de la superficie de la Tierra"
-        },
-        "correctAnswer": "c"
-
-    },
-    {
-        "id": 20,
-        "category": "Science and Technology",
-        "question": "¿Qué órgano es el encargado de fabricar insulina?",
-        "answers": {
-            "a": "Páncreas",
-            "b": "Riñón",
-            "c": "Hígado"
-        },
-        "correctAnswer": "a"
-
-    },
-    {
-        "id": 21,
-        "category": "Science and Technology",
-        "question": "¿Cuántas vertebras forman la columna vertebral humana?",
-        "answers": {
-            "a": "25",
-            "b": "33",
-            "c": "42"
-        },
-        "correctAnswer": "b"
-
-    },
-    {
-        "id": 22,
-        "category": "Science and Technology",
-        "question": "¿Gracias a cuál de tus cinco sentidos puedes descodificar vibraciones en el aire?",
-        "answers": {
-            "a": "Oído",
-            "b": "Tacto",
-            "c": "Visión"
-        },
-        "correctAnswer": "a"
-
-    },
-    {
-        "id": 23,
-        "category": "Science and Technology",
-        "question": "¿Qué es la luna?",
-        "answers": {
-            "a": "Un planeta",
-            "b": "Una estrella",
-            "c": "Un satélite"
-        },
-        "correctAnswer": "c"
-
-    },
-    {
-        "id": 24,
-        "category": "Science and Technology",
-        "question": "Las 'itis' nos indican que algo está...",
-        "answers": {
-            "a": "Está bien",
-            "b": "Infectado",
-            "c": "Inflamado"
-        },
-        "correctAnswer": "a"
-
-    },
-    {
-        "id": 25,
-        "category": "Science and Technology",
-        "question": "¿Qué dedo de la mano sólo tiene dos falanges?",
-        "answers": {
-            "a": "Pulgar",
-            "b": "Índice",
-            "c": "Meñique"
-        },
-        "correctAnswer": "a"
-
-    },
-    {
-        "id": 26,
-        "category": "Science and Technology",
-        "question": "¿Cuál es el símbolo químico del hierro?",
-        "answers": {
-            "a": "Au",
-            "b": "Fe",
-            "c": "Hi"
-        },
-        "correctAnswer": "b"
-
-    },
-    {
-        "id": 27,
-        "category": "Science and Technology",
-        "question": "¿De qué país proviene del pez dorado?",
-        "answers": {
-            "a": "Japón",
-            "b": "India",
-            "c": "China"
-        },
-        "correctAnswer": "c"
-
-    },
-    {
-        "id": 28,
-        "category": "Science and Technology",
-        "question": "¿Qué es la queratina?",
-        "answers": {
-            "a": "Proteína",
-            "b": "Triglicérido",
-            "c": "Vitamina"
-        },
-        "correctAnswer": "a"
-
-    },
-    {
-        "id": 29,
-        "category": "Science and Technology",
-        "question": "¿Cómo se llama la arteria principal del cuerpo humano?",
-        "answers": {
-            "a": "Pulmonar",
-            "b": "Aorta",
-            "c": "Capilares"
-        },
-        "correctAnswer": "b"
-
-    },
-    {
-        "id": 30,
-        "category": "Science and Technology",
-        "question": "¿En cuántos lóbulos se divide el pulmón derecho?",
-        "answers": {
-            "a": "2",
-            "b": "3",
-            "c": "4"
-        },
-        "correctAnswer": "b"
-
-    },
-    {
         "id": 31,
-        "category": "Sports",
-        "question": "¿En qué país ganó Alemania su primer mundial de fútbol?",
+        "category": "html",
+        "question": "¿HTML?",
         "answers": {
             "a": "Suiza",
             "b": "Brasil",
@@ -385,8 +241,8 @@
     },
         {
         "id": 32,
-        "category": "Sports",
-        "question": "¿Cuál es el salto más alto en caballo??",
+        "category": "html",
+        "question": "HTML",
         "answers": {
             "a": "1'10 m",
             "b": "1'20 m",
@@ -397,8 +253,8 @@
     },
         {
         "id": 33,
-        "category": "Sports",
-        "question": "¿Cuántos jugadores componen usualmente un equipo de rugby? ",
+        "category": "html",
+        "question": "¿HTML? ",
         "answers": {
             "a": "15",
             "b": "12",
@@ -409,8 +265,8 @@
     },
         {
         "id": 34,
-        "category": "Sports",
-        "question": "¿Quién fue el primer equipo en llevar dorsales en la liga Española?",
+        "category": "html",
+        "question": "¿HTML?",
         "answers": {
             "a": "Atlético de Madrid",
             "b": "Barcelona",
@@ -418,139 +274,5 @@
         },
         "correctAnswer": "c"
 
-    },
-        {
-        "id": 35,
-        "category": "Sports",
-        "question": "¿Quién es 'O Rei'?",
-        "answers": {
-            "a": "Pelé",
-            "b": "Ronaldo",
-            "c": "Ronaldinho"
-        },
-        "correctAnswer": "a"
-
-    },
-        {
-        "id": 36,
-        "category": "Sports",
-        "question": "¿En qué año se fundó el FC Barcelona? ",
-        "answers": {
-            "a": "1899",
-            "b": "1990",
-            "c": "1991"
-        },
-        "correctAnswer": "a"
-
-    },
-        {
-        "id": 37,
-        "category": "Sports",
-        "question": "Evgenia Kanaeva es la 'reina' de...",
-        "answers": {
-            "a": "Gimnasia rítmica",
-            "b": "Gimnasia artística",
-            "c": "Trapecio"
-        },
-        "correctAnswer": "a"
-
-    },
-        {
-        "id": 38,
-        "category": "Sports",
-        "question": "¿Cuántas Copas del Mundo de Fútbol ha ganado la selección de Italia?",
-        "answers": {
-            "a": "2",
-            "b": "3",
-            "c": "4"
-        },
-        "correctAnswer": "c"
-
-    },
-        {
-        "id": 39,
-        "category": "Sports",
-        "question": "¿En qué país nació Martina Hingis?",
-        "answers": {
-            "a": "Hungría",
-            "b": "Checoslovaquia",
-            "c": "Bélgica"
-        },
-        "correctAnswer": "b"
-
-    },
-        {
-        "id": 40,
-        "category": "Sports",
-        "question": "¿Cuánto dura un partido de béisbol?",
-        "answers": {
-            "a": "No es por tiempo",
-            "b": "90 min",
-            "c": "120 min"
-        },
-        "correctAnswer": "a"
-
-    },
-        {
-        "id": 41,
-        "category": "Sports",
-        "question": "¿En qué deporte destacó Magic Johnson?",
-        "answers": {
-            "a": "Basquet",
-            "b": "Futbol",
-            "c": "Paddle"
-        },
-        "correctAnswer": "a"
-
-    },
-        {
-        "id": 42,
-        "category": "Sports",
-        "question": "¿Qué país ha ganado más Eurocopas seguidas?",
-        "answers": {
-            "a": "Francia",
-            "b": "Alemania",
-            "c": "España"
-        },
-        "correctAnswer": "c"
-
-    },
-        {
-        "id": 43,
-        "category": "Sports",
-        "question": "¿Dónde nació el tenista español Rafael Nadal?",
-        "answers": {
-            "a": "Barcelona",
-            "b": "Mallorca",
-            "c": "Menorca"
-        },
-        "correctAnswer": "b"
-
-    },
-        {
-        "id": 44,
-        "category": "Sports",
-        "question": "¿En qué club se formó Alfredo Di Stefano?",
-        "answers": {
-            "a": "Boca",
-            "b": "River",
-            "c": "Talleres"
-        },
-        "correctAnswer": "b"
-
-    },
-        {
-        "id": 45,
-        "category": "Sports",
-        "question": "¿Qué marca de raqueta usa Roger Federer?",
-        "answers": {
-            "a": "Wilson",
-            "b": "Dunlop",
-            "c": "Prince"
-        },
-        "correctAnswer": "a"
-
     }
-  
-
 ]

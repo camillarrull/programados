@@ -1,4 +1,12 @@
 @import url(https://fonts.googleapis.com/css?family=Signika:700,300,600);
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Orbitron:wght@500&display=swap');
+
+#question{
+    color: rgba(102, 125, 208, 0.7);
+    font-family: 'Signika';
+    font-size: 20px;
+    text-align: center;
+}
 .next, .nextDisable {
     background-color: rgb(187 26 120 / 70%);
     border: none;
@@ -12,6 +20,7 @@
     font-weight: 700;
     border-radius: 4px;
     transition-duration: 0.4s;
+    margin-left: 201px;
 }
 .next:hover {
     background-color: rgb(187 26 120 / 30%);
@@ -28,7 +37,6 @@
     flex-direction: column
 }
 #answersDiv{
-    margin: 50px;
     display: flex;
     flex-direction: column;
 }
@@ -48,5 +56,12 @@
     margin: 15px;
 }
 .respuestaSelected{
-    background-color: yellow
+    background-color: #ffa000
+}
+#time{
+    font-family: 'Signika';
+    font-size: 25px;
+    color: red;
+    margin: 10px;
+    font-weight: bold;
 }

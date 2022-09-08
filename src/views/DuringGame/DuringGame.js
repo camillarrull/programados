@@ -2,7 +2,7 @@ import React from "react"
 import "./duringGame.modules.css"
 import QuestionContainer from "../../components/QuestionContainer/QuestionContainer"
 
-export const DuringGame = ({ randomQuestions, resultadoRta, setResultadoRta, changeGameStatus }) => {
+export const DuringGame = ({ randomQuestions, resultadoRta, setResultadoRta, changeGameStatus, historialRta, setHistorialRta }) => {
     const [currentQuestionIndex, setCurrentQuestionIndex] = React.useState(0)
     const increaseIndex = () => {
         if (currentQuestionIndex === randomQuestions.length - 1) {
@@ -24,6 +24,8 @@ export const DuringGame = ({ randomQuestions, resultadoRta, setResultadoRta, cha
                             increaseIndex={increaseIndex}
                             resultadoRta={resultadoRta}
                             setResultadoRta={setResultadoRta}
+                            historialRta={historialRta}
+                            setHistorialRta={setHistorialRta}
                         />
                    ) 
                 })

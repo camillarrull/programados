@@ -18,17 +18,32 @@ const Container = () => {
     const [gameStatus, setGameStatus] = React.useState('preGame')
     const [randomQuestions, setRandomQuestions] = React.useState([]);
     const [resultadoRta, setResultadoRta] = React.useState(0)
+    const [historialRta, setHistorialRta] = React.useState([])
+    const [puntajeMaximo, setPuntajeMaximo] = React.useState(0)
+    const [gameCategory, setGameCategory] = React.useState('random')
     const initialData = () => {
         let preguntasSeleccionadasAux = [] //variable auxiliar
         let indexSeleccionados = [] 
-        while (preguntasSeleccionadasAux.length < 10) {
-            let questionDataLength = questionsData.length
-            let randomIndex = Math.floor(Math.random() * questionDataLength)
-            let selectedQuestion = questionsData[randomIndex]
-            if (indexSeleccionados.indexOf(randomIndex) === -1) {
-                preguntasSeleccionadasAux.push(selectedQuestion)
-                indexSeleccionados.push(randomIndex)
+        while (preguntasSeleccionadasAux.length < 4) {
+            if (gameCategory === 'random') {
+                let questionDataLength = questionsData.length
+                let randomIndex = Math.floor(Math.random() * questionDataLength)
+                let selectedQuestion = questionsData[randomIndex]
+                if (indexSeleccionados.indexOf(randomIndex) === -1) {
+                    preguntasSeleccionadasAux.push(selectedQuestion)
+                    indexSeleccionados.push(randomIndex)
+                }
+            } else {
+                let filterArray = questionsData.filter((element, index) => element.category === gameCategory )
+                let filterArrayLength = filterArray.length
+                let randomIndex = Math.floor(Math.random() * filterArrayLength)
+                let selectedQuestion = filterArray[randomIndex]
+                if (indexSeleccionados.indexOf(randomIndex) === -1) {
+                    preguntasSeleccionadasAux.push(selectedQuestion)
+                    indexSeleccionados.push(randomIndex)
+                }
             }
+            
             
         }
         setRandomQuestions(preguntasSeleccionadasAux)
@@ -36,9 +51,14 @@ const Container = () => {
     const changeGameStatus = (status) => {
         setGameStatus(status)
     }
-    React.useEffect(() => {
-        initialData()
-    }, [])
+    const changeCategory = (category) => {
+        setGameCategory(category)
+        console.log('category')
+    }
+    
+    // React.useEffect(() => {
+    //     initialData()
+    // }, [])
     return (
         <div id="container">
             {
@@ -48,7 +68,13 @@ const Container = () => {
                 
                 (gameStatus === 'preGame') ?
                     <PreGame
+                        initialData={initialData}
+                        changeCategory={changeCategory}
                         changeGameStatus={changeGameStatus}
+                        setResultadoRta={setResultadoRta}
+                        resultadoRta={resultadoRta}
+                        puntajeMaximo={puntajeMaximo}
+                        setPuntajeMaximo={setPuntajeMaximo}
                     />
                 : (gameStatus === 'duringGame') ?
                     <DuringGame
@@ -56,12 +82,19 @@ const Container = () => {
                             resultadoRta={resultadoRta}
                             setResultadoRta={setResultadoRta}
                             changeGameStatus={changeGameStatus}
+                            historialRta={historialRta}
+                            setHistorialRta={setHistorialRta}
+                            
                     />
                 :   <PostGame
                             resultadoRta={resultadoRta}
                             setResultadoRta={setResultadoRta}
+                            puntajeMaximo={puntajeMaximo}
+                            setPuntajeMaximo={setPuntajeMaximo}
                             changeGameStatus={changeGameStatus}
-                        initialData={initialData}    
+                            initialData={initialData}
+                            historialRta={historialRta}
+                            setHistorialRta={setHistorialRta}
                     />
             }
         </div>

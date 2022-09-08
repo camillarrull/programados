@@ -1,6 +1,6 @@
-body{
-    background-color: beige !important
-}
-#container{
-    display: flex; justify-content: center; align-items: center; margin:20px 0; text-align:center; background:beige; overflow:hidden;
+#container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
 }

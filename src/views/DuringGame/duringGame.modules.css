@@ -1,7 +1,9 @@
 #contenedorPreguntas{
-    width: 900px;
     background-color: white;
-    padding: 100px;
-    margin: 75px;
-    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+    height: 425px;
+    border-radius: 20px;
+    width: 610px;
+    box-shadow: rgb(3 102 214 / 30%) 0px 0px 0px 3px;
+    border-radius: 20px;
+    align-self: center;
 }
